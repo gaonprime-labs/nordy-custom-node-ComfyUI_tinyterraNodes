@@ -151,16 +151,16 @@ class TinyTerra extends EventTarget {
             //         });
             //     },
             // },
-            {
-                content: "🛑 Reboot Comfy",
-                className: "tinyterra-contextmenu-item",
-                callback: (...args) => {
-                    rebootAPI();
-                    wait(1000).then(() => {
-                        window.location.reload();
-                    });
-                }
-            },
+            // {
+            //     content: "🛑 Reboot Comfy",
+            //     className: "tinyterra-contextmenu-item",
+            //     callback: (...args) => {
+            //         rebootAPI();
+            //         wait(1000).then(() => {
+            //             window.location.reload();
+            //         });
+            //     }
+            // },
             {
                 content: "⭐ Star on Github",
                 className: "tinyterra-contextmenu-item",
